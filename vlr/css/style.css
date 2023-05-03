@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.header {
+  float: left;
+  width: 20%;
+  height: 100vh;
+  background-color: #03465D;
+}
+
+.nav-bar {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+.logo {
+  display: block;
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 36px;
+}
+
+.logo:hover {
+  opacity: 1;
+}
+
+
+.main-nav a {
+  display: block;
+  width: 70%;
+  margin: 25px auto;
+  padding: 10px 15px;
+  background-color: #D9D9D9;
+  color: #03465D;
+  border-radius: 20px;
+}
+
+.main-nav a:hover {
+  color: black;
+}
+
+/* sec-main */
+.sec-main {
+  float: right;
+  width: 80%;
+  color: #03465D;
+  text-align: center;
+}
+
+.inner-cht {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.inner-cht:hover {
+  background-color: rgba(216, 216, 216, 0.2);
+}
+
+.u-name,
+.gtext,
+.ttl {
+  margin-bottom: 50px;
+}
+
+.welcome {
+  margin-bottom: 20px;
+}
+
+.sec-main a {
+  display: inline-block;
+  margin: 25px auto;
+  padding: 10px 15px;
+  background-color: #03465D;
+  color: #D9D9D9;
+  border-radius: 20px;
+}
+
+.ttl {
+  font-size: 32px;
+}
+
+.c-text {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.message-box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 30px 0;
+  background-color: rgba(216, 216, 216, 0.4);
+}
+
+.input-box {
+  width: 750px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 20px;
+}
+
+textarea {
+  width: 680px;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+textarea {
+  overflow: auto;
+  -webkit-scrollbar: none;
+  /* For Safari and Chrome */
+  scrollbar-width: none;
+  /* For Firefox */
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
+  /* For Safari and Chrome */
+}
+
+
+.icon-box {
+  border: none;
+  background-color: #fff;
+}
+
+.bi {
+  color: #03465D;
+}
